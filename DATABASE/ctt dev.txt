@@ -1,0 +1,7 @@
+PENGGUNAAN SISTEM:
+1. Tidak support di PHP versi 7 (Gunakan PHP versi 5-6)
+2. Atur nama database di file application -> config -> database.php
+
+CATATAN KHUSUS:
+1. Hari jum'at sistem tidak akan menjadwalkan perkuliahan pada jam 10.30 s/d 13.00.
+2. Jika ingin tetap ada perkuliahan di jam 10.30 s/d 13.00 pada hari jum'at, maka harus dikembangkan dan dilakukan perubahan pada sistem di file application/controllers/web.php (kode jam dilihat pada tabel jam di database)
